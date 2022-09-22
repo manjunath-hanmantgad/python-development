@@ -15,7 +15,24 @@ def guess(x):
             print("Guess lower")
         #print(guess)
     print(f"that is a good guess! and the guessed number is {random_number}")
-guess(10) # here x = 10
+#guess(10) # here x = 10
 
+# making the computer guess the number
 
+def computer_guess(x):
+    low = 1 # specify start
+    high = x # this is a number which computer should guess
+    feedback = '' # nothing is too high nothing to low
+    while feedback != 'c' and low != high:# a random character
 
+        guess = random.randint(low,high)
+        # ask feedbac from user
+        feedback = input(f"is {guess} too high {H}, too low {L}, or correct {c}").lower()
+        if feedback == 'h':
+            high = guess - 1
+        elif feedback == 'l':
+            low = guess + 1
+
+    print(f"computer guess correctly {guess}.")
+
+computer_guess(10)
