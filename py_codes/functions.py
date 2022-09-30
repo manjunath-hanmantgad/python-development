@@ -79,7 +79,38 @@ foo(animal="cow",likes="me")
 print(foo)
 
 
+# -*- coding: utf-8 -*-
+"""
+@title:- functions from scratch
+@author: Manjunath
+"""
 
+# create functions 
+
+def sample_func():
+    print(1+1)
+    
+sample_func()
+
+def sample_func_2(input1,input2):
+    
+    return input1 + input2
+
+print(sample_func_2(10,9))
+print(type(sample_func_2(10,10)))
+
+# lambda functions
+
+# anotherfunc = lambda input : input <some operation>
+
+anotherfunc = lambda x : x**2 -1
+print(anotherfunc(5))
+
+import numpy as np 
+def factorial(val): 
+    return np.prod(np.arange(1,1+val)) # starting with 1 bcoz end is 0 then anything multiplied by 0 is equal to 0    
+    
+print(factorial(2))
 
 
 
