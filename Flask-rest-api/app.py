@@ -20,7 +20,9 @@ stores = [
 
 # information want to retrieve is using GET
 
-@app.get("/store") #http://127.0.0.1:5000/store
+#@app.get("/store") #http://127.0.0.1:5000/store
+@app.route('/store', methods=["GET"]) # .get was not working somehow !!
 
 def get_scores():
     return {"stores":stores}
+
