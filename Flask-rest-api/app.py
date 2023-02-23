@@ -33,3 +33,15 @@ def create_store():
     stores.append(new_store)
     return new_store, 201 # 201 is status code
 
+@app.route("/store/<string:name>/item", methods=["POST"])
+def create_item(name): # name part of string:name is passed into the parameter
+    request_data = request.get_json() # grab the data entered from postman
+    # match the store name 
+    for store in stores:
+        if store["name"] == name:
+            new_item = {"name":request_data["name"], "price":request_data["price"]} # request_data is data which client enters from postman
+            store["items"].append(new_item) # appending to store's item
+            return new_item , 201
+    return {"message":"Store not found"}, 404 # if client enters a store which is not there in our db or list
+    
+    
