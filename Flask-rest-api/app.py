@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, request
 
 app = Flask(__name__)
 
@@ -25,4 +25,11 @@ stores = [
 
 def get_scores():
     return {"stores":stores}
+
+@app.route('/store', methods = ["POST"])
+def create_store():
+    request_data = request.get_json() # getting the data which client is posting in postman
+    new_store = {"name": request_data["name"], "items":[]} # creating a new store 
+    stores.append(new_store)
+    return new_store, 201 # 201 is status code
 
