@@ -1,6 +1,6 @@
 Contains programs related to DSA in Python.
 
-*Arrays
+* Arrays
 * Strings
 * Lists , tuples , dictionaries
 * Linked lists
