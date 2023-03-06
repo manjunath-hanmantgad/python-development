@@ -4,3 +4,4 @@
 
 2. The uvicorn server has the capability to run both synchronous and asynchronous services.
 
+3. Using pydanctic we can control what data is sent , this is called as validation.

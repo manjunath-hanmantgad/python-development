@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 
 from test_1 import test_router
-
+#from model import test_1
 app = FastAPI()
 
 
