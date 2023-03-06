@@ -1,0 +1,15 @@
+from fastapi import FastAPI
+
+from test_1 import test_router
+
+app = FastAPI()
+
+
+@app.get("/")
+async def welcome() -> dict:
+    return {
+        "message": "Hello World"
+    }
+
+
+app.include_router(test_router)
