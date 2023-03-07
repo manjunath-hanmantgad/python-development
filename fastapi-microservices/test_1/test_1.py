@@ -38,3 +38,15 @@ async def add_test_1(test_1:test_1): # got this from model.py
 async def retrieve_test_1():
     
     return {"test_items": test_list}
+
+
+@test_router.get("/test_1/{test_1_id}") # test_1_id is PATH parameter
+async def get_single_record(test_1_id: int = Path(..., title="The ID to retrieve")):
+    for t in test_list:
+        if test_1.id == test_1_id:
+            return{
+                   "test_1": "test_1"
+                   }
+    return {
+        "message": "Id with supplied item does not exist."
+    }
