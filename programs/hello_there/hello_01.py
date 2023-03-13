@@ -15,7 +15,7 @@ def get_args():
     return parser.parse_args()
 
 def main():
-
+    ''' here is the main function'''
     # parser = argparse.ArgumentParser(description="Say Hello")
     # parser.add_argument('name', help="Name to greet")
     # args = parser.parse_args()
