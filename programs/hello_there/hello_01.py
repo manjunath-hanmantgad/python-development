@@ -3,6 +3,7 @@
 
 import argparse
 
+
 def get_args():
     ''' get_args() function is dedicated to getting the arguments'''
     parser = argparse.ArgumentParser(description="Say Hello")
@@ -13,6 +14,7 @@ def get_args():
     parsing the arguments back to the main() function.
     '''
     return parser.parse_args()
+
 
 def main():
     ''' here is the main function'''
@@ -26,5 +28,6 @@ def main():
     '''
     print('Hello,' + args.name + '!')
 
-if __name__=='__main__':
+
+if __name__ == '__main__':
     main()
