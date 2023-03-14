@@ -18,6 +18,18 @@ class User(BaseModel):
             "example":{
             "email":"mj@gmail.com",
             "username":"beast-mode-on",
+            "password":"beast-mode-on",
             "events":[],
             }
+        }
+    # model for user sign - in
+class UserSignIn(BaseModel):
+        email: EmailStr
+        password: str 
+
+        schema_extra = {
+             "example":{
+             "email":"mj@gmail.com",
+             "password":"beast-mode-on"
+             }
         }
