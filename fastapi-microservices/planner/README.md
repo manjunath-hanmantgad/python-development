@@ -15,3 +15,25 @@ Now define the User model.
 Authenticated user will have access for create,update,delete an event.
 
 3. Next is to implement routes for event operations.
+
+4. Next step is setting up database
+
+   - Setting up SQLModel
+   - CRUD operations on sql db using sqlmodel
+   - setup mongodb
+   - CRUD operations on mongodb using beanie
+
+a. Setting up SQLMOdel
+   - install sqlmodel library
+   - Table = object for storing data (storing events)
+   - Rows class which is a event
+   - database transaction using session class
+
+b. Methods used from session class
+   - add() -adding db object to memory.
+   - commit() - flushing transactions present in session
+   - get()- takes 2 params : model and ID of document which is requested. This is used to retrieve single row from database.
+
+5. Creating a database
+   - Created using create_engine()method.
+   - database url as argument
