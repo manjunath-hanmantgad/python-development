@@ -78,3 +78,12 @@ print(emp_2.full_name)
 # so to get the data
 print(emp_1.full_name())
 print(emp_2.full_name())
+
+# running the methods using the class names itself.
+
+print(Employee.full_name()) # this complains of missing self.
+#print(Employee.full_name(self)) # self is not defined
+print(Employee.full_name(emp_1))
+
+emp_1.full_name() # no need to pass self as emp_1 will be picked up
+Employee.full_name(emp_1) # need to pass , as self will not pick up by itself.
