@@ -10,6 +10,10 @@ class Employee:
         self.first=first
         self.last=last
         self.email=first + '.' + last + '@gmail.com'
+    
+    def full_name(self):
+        return '{} {}'.format(self.first,self.last)
+        
         
 
 # each employee will be attibute of this class employee
@@ -60,4 +64,17 @@ print(emp_2.email)
 # now to get full name
 # but without class
 
-print('{} {}'.format(emp_1.first,emp_1.last))
+#print('{} {}'.format(emp_1.first,emp_1.last))
+
+# so creating a method for full name in the class 
+
+# now getting full name using above function 
+
+print(emp_1.full_name)
+print(emp_2.full_name)
+
+# if I do this I get method but not the method
+
+# so to get the data
+print(emp_1.full_name())
+print(emp_2.full_name())
