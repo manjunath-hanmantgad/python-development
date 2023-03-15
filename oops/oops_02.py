@@ -57,3 +57,7 @@ print(emp_2.email)
 
 # using __init__ method -- A
 
+# now to get full name
+# but without class
+
+print('{} {}'.format(emp_1.first,emp_1.last))
