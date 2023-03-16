@@ -36,3 +36,13 @@ print(gross_income)
 
 number_of_dependents = input("Enter number of dependents : ")
 print(number_of_dependents)
+
+
+# calculate the taxable income 
+
+taxable_icnome = gross_income - 12200 - (2000 * number_of_dependents)
+# based on formula 
+
+print(taxable_icnome)
+# this gives an error as : ypeError: unsupported operand type(s) for -: 'str' and 'int'
+
