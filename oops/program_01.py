@@ -31,18 +31,23 @@ print tax due
 
 gross_income = input("Enter your gross income in USD : ")
 print(gross_income)
+# assigning as int and str 
+
+gross_income_float = float(gross_income)
 
 # for number of dependents 
 
 number_of_dependents = input("Enter number of dependents : ")
 print(number_of_dependents)
-
+number_of_dependents_float = float(number_of_dependents)
 
 # calculate the taxable income 
 
-taxable_icnome = gross_income - 12200 - (2000 * number_of_dependents)
+# taxable_icnome = gross_income - 12200 - (2000 * number_of_dependents)
 # based on formula 
 
-print(taxable_icnome)
+#print(taxable_icnome)
 # this gives an error as : ypeError: unsupported operand type(s) for -: 'str' and 'int'
 
+taxable_icnome = gross_income_float - 12200 - (2000 * number_of_dependents_float)
+print(taxable_icnome)
