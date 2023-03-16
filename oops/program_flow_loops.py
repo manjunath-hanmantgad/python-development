@@ -41,14 +41,26 @@
 
 # string operations 
 
-message = "Hello bhai kaisa hai ?"
-print(message.split()) # bracket nhi dala to sirf address dega
+# message = "Hello bhai kaisa hai ?"
+# print(message.split()) # bracket nhi dala to sirf address dega
 
-print(message[:3]) # matlab ye pehle se start krega and word ka indes se
-# matlab iska start hoga 0 - H , 1 - e , 2 - l , 3 - l , 4 - o
-# and aage se.
+# print(message[:3]) # matlab ye pehle se start krega and word ka indes se
+# # matlab iska start hoga 0 - H , 1 - e , 2 - l , 3 - l , 4 - o
+# # and aage se.
 
-# string searching 
-# using 'in' keyword 
-# string matching is done # matlab case sensitive hai
+# # string searching 
+# # using 'in' keyword 
+# # string matching is done # matlab case sensitive hai
 
+# for i in message:
+#     print(i)
+
+
+# loop ke andar loop 
+
+employees = ['E1', 'E2', 'E3']
+for i in employees:
+    print(i)
+    for k in i:
+        print(k.upper())
+    print("-----------")
