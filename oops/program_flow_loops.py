@@ -58,9 +58,13 @@
 
 # loop ke andar loop 
 
-employees = ['E1', 'E2', 'E3']
-for i in employees:
-    print(i)
-    for k in i:
-        print(k.upper())
-    print("-----------")
+# employees = ['E1', 'E2', 'E3']
+# for i in employees:
+#     print(i)
+#     for k in i:
+#         print(k.upper())
+#     print("-----------")
+
+fruit_list = ["apple", "banana", "cherry", "gooseberry", "kumquat", "orange", "pineapple"]
+for fruit in fruit_list:
+    print(fruit)
