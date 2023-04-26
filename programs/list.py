@@ -32,3 +32,9 @@ message = f"I would like to ride {bikes[0]}"
 print(message)
 message_1 = f"I would like to drive {bikes[1]}"
 print(message_1)
+
+
+# Modifying, Adding, and Removing Elements
+
+motorcycles = ['honda', 'yamaha', 'suzuki']
+motorcycles[0] = 'ducati'
