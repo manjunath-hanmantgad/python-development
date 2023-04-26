@@ -38,3 +38,8 @@ print(message_1)
 
 motorcycles = ['honda', 'yamaha', 'suzuki']
 motorcycles[0] = 'ducati'
+motorcycles.append('crv')
+
+motorcycles = []
+motorcycles.append('aa')
+motorcycles.append('bb')
