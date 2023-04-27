@@ -242,11 +242,30 @@ for j in friend_pizza:
     print(j)
 
 
+# tuples
+
+'''
+sometimes you’ll want to create a list of items that cannot change. Tuples allow you to do just that. Python refers to values that cannot change as immutable, and an immutable list is called a tuple.
+'''
+
+tuple_1 = (1,2) # notice the brackets
+type(tuple_1)
+tuple_1[0] = 10 #TypeError: 'tuple' object does not support item assignment
+
+tuple_single_element = (1,) # 1
 
 
+# looping through tuple
 
+tuple_loop = (range(1,11))
+for t in tuple_loop:
+    print(t)
+    
+# tuples work ok when reassigning them
 
-
+tuple_loop = range(1,5)
+for i in tuple_loop:
+    print(i)
 
 
 
