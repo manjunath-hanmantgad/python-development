@@ -81,10 +81,22 @@ places.sort(reverse=True)
 len(places)
 
 
+# looping through list 
+
+'''
+s = 'hi there my name is anthony gonsalves'
+s[::-1]
+'''
 
 
-
-
+magicians = ['alice', 'david', 'carolina']
+for m in magicians:
+    #print (m) # alice, david, carolina
+    #print(f"That was a great trick, MR. {m.title()}") #That was a great trick, MR. Alice
+    print(f"We are looking forward to your tricks , Mr.{m}!!") #We are looking forward to your tricks , Mr.alice!!
+    
+    
+# Doing Something After a for Loop
 
 
 
