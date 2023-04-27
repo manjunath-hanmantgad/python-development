@@ -162,6 +162,9 @@ for k,v in enumerate(list1):
 threes = [t*3 for t in range(3,31)]
 print(threes)
 
+cubes = [c**3 for c in range(1,11)]
+print(cubes)
+
 
 
 
