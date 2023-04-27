@@ -98,7 +98,12 @@ for m in magicians:
     
 # Doing Something After a for Loop
 
-
+magicians = ['alice', 'david', 'carolina']
+for m in magicians:
+    #print (m) # alice, david, carolina
+    print(f"That was a great trick, MR. {m.title()}") #That was a great trick, MR. Alice
+    print(f"We are looking forward to your tricks , Mr.{m}!!\n") #We are looking forward to your tricks , Mr.alice!!
+print("Thank you for your tricks!!")
 
 
 
