@@ -166,6 +166,79 @@ cubes = [c**3 for c in range(1,11)]
 print(cubes)
 
 
+# slicing
+
+
+players = ['charles', 'martina', 'michael', 'florence', 'eli']
+players[0:3]
+players[:4]
+
+# slice which includes end of list
+players[2:]
+players[-3:] # ['michael', 'florence', 'eli']
+players[:-3] #['charles', 'martina']
+players[::1] #Out[84]: ['charles', 'martina', 'michael', 'florence', 'eli']
+
+players[::-1] #['eli', 'florence', 'michael', 'martina', 'charles']
+
+# Looping Through a Slice
+players = ['charles', 'martina', 'michael', 'florence', 'eli']
+print("Here are first three players in my team:\n")
+#print("Here are last three players of my team:\n")
+for p in players[:3]:
+    print(p) 
+'''
+charles
+martina
+michael
+'''
+print("Here are last three players of my team:\n")
+for j in players[2:]:
+    print(j)
+    '''
+    michael
+    florence
+    eli
+    '''
+
+# copying a list
+
+'''
+To copy a list, you can make a slice that includes the entire original list by omitting the first index and the second index ([:]). This tells Python to make a slice that starts at the first item and ends with the last item, producing a copy of the entire list.
+'''
+my_foods = ['pizza', 'falafel', 'carrot cake','blueberry','strawberry']
+friend_foods = my_foods[:] # copying the entire my_foods list
+
+my_foods == friend_foods # True
+
+
+
+print("first three items in my_foods are:")
+for f in my_foods[:3]:
+    print(f)
+
+print("three items from middle of the list are:")
+for i in my_foods[1:4]: 
+    print(i) #'falafel', 'carrot cake','blueberry',
+print("last three items in list are:")
+for k in my_foods[2:]:
+    print(k) #carrot cake','blueberry','strawberry'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
