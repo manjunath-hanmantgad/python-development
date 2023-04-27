@@ -159,6 +159,9 @@ for k,v in enumerate(list1):
         print(v, end=" ")
 # Time Complexity: O(N)
 
+threes = [t*3 for t in range(3,31)]
+print(threes)
+
 
 
 
