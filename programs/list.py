@@ -106,6 +106,18 @@ for m in magicians:
 print("Thank you for your tricks!!")
 
 
+pizzas = ['tomato','cheese','sqaure']
+for p in pizzas:
+    #print(p)
+    print(f"I like {p.title()} pizza!")
+print("I love pizza!!")
+
+
+animals = ["cat","dog","horse"]
+for a in animals:
+    #print(a)
+    print(f"{a.title()} would make a great pet!")
+print("Any animal will make a grate pet!!")
 
 
 
