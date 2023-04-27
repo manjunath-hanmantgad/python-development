@@ -226,10 +226,20 @@ for k in my_foods[2:]:
 
 
 
+pizza = ['tomato','cheese','corn','apple']
+friend_pizza = pizza[:] # copied pizza to friend_pizza
+#pizza == friend_pizza # True
+pizza.append('mushroom')
+print(pizza) #['tomato', 'cheese', 'corn', 'apple', 'mushroom']
+friend_pizza.append('macaroni')
+print(friend_pizza) #['tomato', 'cheese', 'corn', 'apple', 'macaroni']
 
-
-
-
+print("My favorite pizza are:\n")
+for i in pizza:
+    print(i)
+print("My friends favorite pizza are:\n")
+for j in friend_pizza:
+    print(j)
 
 
 
