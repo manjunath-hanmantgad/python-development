@@ -140,7 +140,24 @@ for v in range(1,11):
     sqaures.append(square) # [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 print(sqaures)
 
+# list comprehensions
 
+squares = [v ** 2 for v in range(1,11)]
+print(squares)
+
+numbers = [n for n in range(1,21)]
+print(numbers) #[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+odd_numbers = list(range(1,21))
+odd = [n for n in odd_numbers if n%2 == 1]
+
+# using enumerate
+
+list1 = range(1,21)
+for k,v in enumerate(list1):
+    if v%2 !=0:
+        print(v, end=" ")
+# Time Complexity: O(N)
 
 
 
