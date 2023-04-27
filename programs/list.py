@@ -120,6 +120,26 @@ for a in animals:
 print("Any animal will make a grate pet!!")
 
 
+# making use of range function
+
+for number in range(1,10):
+    print (number)
+
+# convert range to list
+
+numbers = list(range(1,10))
+
+# even numbers
+
+even_number = list(range(2,11,2))
+type(even_number) # range ; # list
+
+sqaures = []
+for v in range(1,11):
+    square = v ** 2
+    sqaures.append(square) # [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+print(sqaures)
+
 
 
 
