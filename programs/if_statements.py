@@ -47,4 +47,61 @@ else:
     price = 40
 print(f"You need to pay Rs {price}!!")
 
-    
+requested_toppings = ['mushrooms', 'extra cheese']
+
+if 'mushrooms' in requested_toppings:
+    print("Adding mushrooms")
+if 'macroni' in requested_toppings:
+    print("Adding macroni")
+if 'extra cheese' in requested_toppings:
+    print("adding extra cheese")
+print("Preparing your pizza now!")
+
+
+alien_color = ['green','yellow','red']
+#alien_color = yellow
+if 'green' in alien_color:
+    print("You earned 5 points!!")
+if alien_color != 'green':
+    print("You earned 10 points!")
+
+if 'green' in alien_color:
+    print("You earned 5 points")
+if 'yellow' in alien_color:
+    print("You earned 10 points")
+if 'red' in alien_color:
+    print("You earned 15 points")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
