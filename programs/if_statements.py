@@ -83,12 +83,33 @@ for r in requested_toppings:
     else:
         print(f"Adding {r} to your pizza!")
 
+requested_toppings = [] # empty list
+if requested_toppings:
+    for r in requested_toppings:
+        print(f"Adding {r}")
+    print("Finished adding all.")
+else:
+    print("Guess you want a plain pizza")
+    
+
+available_toppings = ['mushrooms', 'olives', 'green peppers',
+                      'pepperoni', 'pineapple', 'extra cheese']
+
+requested_toppings = ['mushrooms', 'french fries', 'extra cheese']
+
+for r in requested_toppings:
+    
+    if r in available_toppings:
+        print(f"Adding {r} as topping!")
+    else:
+        print("Sorry out of the {r}")
+print("Pizza is ready")
 
 
 
-
-
-
+users = ['aa','bb','cc','admin','dd']
+for u in users:
+    print("Hello there {u.title()}")
 
 
 
