@@ -71,6 +71,17 @@ if 'yellow' in alien_color:
     print("You earned 10 points")
 if 'red' in alien_color:
     print("You earned 15 points")
+    
+    
+requested_toppings = ['mushrooms', 'green peppers', 'extra cheese']
+
+for r in requested_toppings:
+    #print(f"Adding {r} in your pizza")
+    '''out of green pepper'''
+    if r == 'green peppers':
+        print("Sorry we are out of GP currently")
+    else:
+        print(f"Adding {r} to your pizza!")
 
 
 
