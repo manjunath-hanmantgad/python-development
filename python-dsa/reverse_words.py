@@ -48,3 +48,13 @@ print(reverse)
 
 Considering the simplicity of the algorithm and the linear time and space complexity, this solution is considered efficient for reversing a string without reversing its individual words.
 '''
+
+def reverse_string(sentence):
+    words = sentence.split('.')
+    reversed_words = words[::-1]
+    reversed_sentence = '.'.join(reversed_words)
+    return reversed_sentence
+
+sentence = "Hello.world.This.is.a.test"
+reversed_sentence = reverse_string(sentence)
+print(reversed_sentence)
