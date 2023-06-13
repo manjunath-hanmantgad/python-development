@@ -25,7 +25,19 @@ b = input('enter : ')
 result = anagrams(a,b)
 print(f" are {a} and {b} anagrams ? {result}")
 
+'''
+    The are_anagrams function takes two strings, a and b, as input.
 
+    It first checks if the lengths of the strings are equal. If they are not equal, the function immediately returns False since two strings with different lengths cannot be anagrams.
+
+    Two dictionaries, char_freq_a and char_freq_b, are created to store the frequencies of characters in strings a and b, respectively.
+
+    The first for loop iterates over each character in string a. It uses the char_freq_a dictionary to count the frequency of each character. The get method is used to retrieve the current count of a character and increment it by 1. If a character is not present in the dictionary, it defaults to 0.
+
+    The second for loop does the same for string b, counting the frequency of each character and storing it in the char_freq_b dictionary.
+
+    Finally, the function compares the two dictionaries, char_freq_a and char_freq_b, using the == operator. If the dictionaries are equal, it means that both strings have the same characters with the same frequencies, and the function returns True. Otherwise, it returns False.
+'''
 '''
 Edge cases to consider:
 
