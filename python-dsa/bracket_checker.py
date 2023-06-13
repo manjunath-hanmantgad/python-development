@@ -2,6 +2,8 @@
 Given an expression string exp, write a program to examine whether the pairs and the orders of “{“, “}”, “(“, “)”, “[“, “]” are correct in the given expression.
 '''
 
+# ref : https://www.geeksforgeeks.org/check-for-balanced-parentheses-in-an-expression/
+# https://www.geeksforgeeks.org/videos/check-for-balanced-parentheses-in-an-expression/
 def bracket_balanced(s):
     stack = []
     for char in s:
