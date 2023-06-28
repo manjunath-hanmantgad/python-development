@@ -1,3 +1,5 @@
+## 2 POINTERS IS GOOD OPTION
+
 '''
 Given a String S, reverse the string without reversing its individual words. Words are separated by dots.
 '''
@@ -15,6 +17,8 @@ print(" ".join(string))
 
 
 # ----------
+
+## 2 POINTERS
 
 def reverse(string):
     words = string.split('.')
