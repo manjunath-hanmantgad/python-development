@@ -1,3 +1,12 @@
+
+#######################################
+
+### Watch this video : https://www.youtube.com/watch?v=5NdhK3tZViQ
+
+## in hindi!
+
+###################################
+
 def multiply(num1,num2):
     n1 = len(num1)
     n2 = len(num2)
