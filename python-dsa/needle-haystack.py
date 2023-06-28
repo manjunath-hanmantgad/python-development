@@ -1,3 +1,6 @@
+### Also called as 
+### Find the Index of the First Occurrence in a String
+
 def strStr(haystack,needle):
     # base condition
     if haystack is None or needle is None:
