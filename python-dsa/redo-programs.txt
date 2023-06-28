@@ -1,3 +1,4 @@
 1. string compress
 2. isomorphic
 3. needle haystack
+4. multiply strings (also add strings)
