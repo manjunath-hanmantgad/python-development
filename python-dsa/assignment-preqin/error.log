@@ -1,0 +1,48 @@
+2023-07-26 00:40:59,087 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.226:5000
+2023-07-26 00:40:59,087 - INFO: [33mPress CTRL+C to quit[0m
+2023-07-26 00:42:03,713 - INFO: 127.0.0.1 - - [26/Jul/2023 00:42:03] "POST /generate_array HTTP/1.1" 200 -
+2023-07-26 00:42:18,541 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.226:5000
+2023-07-26 00:42:18,548 - INFO: [33mPress CTRL+C to quit[0m
+2023-07-26 00:45:08,462 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.226:5000
+2023-07-26 00:45:08,463 - INFO: [33mPress CTRL+C to quit[0m
+2023-07-26 00:45:17,590 - INFO: 127.0.0.1 - - [26/Jul/2023 00:45:17] "POST /generate_array HTTP/1.1" 200 -
+2023-07-26 00:48:09,111 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.226:5000
+2023-07-26 00:48:09,112 - INFO: [33mPress CTRL+C to quit[0m
+2023-07-26 00:48:30,319 - INFO: 127.0.0.1 - - [26/Jul/2023 00:48:30] "POST /generate_array HTTP/1.1" 200 -
+2023-07-26 00:50:42,167 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.226:5000
+2023-07-26 00:50:42,167 - INFO: [33mPress CTRL+C to quit[0m
+2023-07-26 00:50:54,796 - INFO: 127.0.0.1 - - [26/Jul/2023 00:50:54] "POST /generate_array HTTP/1.1" 200 -
+2023-07-26 00:54:35,477 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.226:5000
+2023-07-26 00:54:35,477 - INFO: [33mPress CTRL+C to quit[0m
+2023-07-26 00:57:04,945 - ERROR: Internal server error: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2023-07-26 01:01:57,506 - ERROR: Internal server error: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2023-07-26 01:02:24,226 - ERROR: Internal server error: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2023-07-26 01:08:27,081 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.226:5000
+2023-07-26 01:08:27,081 - INFO: [33mPress CTRL+C to quit[0m
+2023-07-26 01:31:22,591 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.226:5000
+2023-07-26 01:31:22,591 - INFO: [33mPress CTRL+C to quit[0m
+2023-07-26 01:31:28,850 - INFO: 127.0.0.1 - - [26/Jul/2023 01:31:28] "POST /generate_array HTTP/1.1" 200 -
